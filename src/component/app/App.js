@@ -9,7 +9,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        {/* <MainMenu />
+        <MainMenu />
         <Projects />
         <Experiance
           title="Experiance"
@@ -24,7 +24,7 @@ class App extends Component {
           info="Top sales performer 
 strong knowledge in business side of websites  SEO google Adwords"
         />
-        <Contact /> */}
+        <Contact />
       </div>
     );
   }
