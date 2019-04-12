@@ -1,0 +1,23 @@
+/* body {
+  background-color: #1fb58f;
+} */
+.computer {
+  height: auto;
+  width: 100%;
+  position: relative;
+  z-index: 100;
+}
+
+.computerWrapper {
+  position: relative;
+  width: 60%;
+  margin: auto;
+}
+.whiteNoise {
+  top: 50px;
+  left: 40px;
+  height: auto;
+  width: 77%;
+  position: absolute;
+  z-index: 1;
+}
