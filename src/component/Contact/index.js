@@ -5,11 +5,13 @@ class Contact extends React.Component {
   render() {
     return (
       <>
-        <h1>Contact</h1>
-        <div>
-          <div> email : omarsultani@msn.com</div>
-          <div> linked in : blah blah blah</div>
-          <div> Github : blah blah </div>
+        <div className={css.h1}>
+          <h1>Contact</h1>
+          <div>
+            <div> email : omarsultani@msn.com</div>
+            <div> linked in : blah blah blah</div>
+            <div> Github : blah blah </div>
+          </div>
         </div>
       </>
     );

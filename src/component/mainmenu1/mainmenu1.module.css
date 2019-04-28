@@ -17,9 +17,7 @@
   justify-content: center;
   padding: 5px;
   border: solid 10px var(--palm);
-  border-radius: 10px;
-  background-color: rgb(244, 249, 250);
-  text-indent: 10px;
+
   /* padding: 0.5rem;
   height: 300px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.03);
@@ -34,17 +32,9 @@
   align-content: flex-start;
   align-items: flex-start;
 } */
-.text {
-  left: 5px;
-}
-.contact {
-  text-indent: 30px;
-}
-.title {
-  text-decoration: underline;
-}
+
 .picture {
   display: flex;
-  height: 296px;
+  height: 270px;
   width: auto;
 }

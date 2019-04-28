@@ -5,31 +5,131 @@
 // snowboarder
 // traveller
 // find pictures i need for all these pages
-import React from "react";
-import css from "./AboutMe.module.css";
+// import React from "react";
+// import css from "./AboutMe.module.css";
 
-class AboutMe extends React.Component {
+import React, { Component } from "react";
+// import { NavLink } from "react-router-dom";
+// import MediaQuery from "react-responsive";
+import css from "./AboutMe.module.css";
+import djPhoto from "./dj photo.jpg";
+import djposter from "./thegroove.jpg";
+
+import snowBoarding from "./snowboarding photo.jpg";
+import travel from "./travellll.jpg";
+import festivals from "./musicfestivals.jpg";
+import audioBooks from "./audio books.jpg";
+import nutrition from "./iStock-590077924-copy.jpg";
+import Nav from "../navbar";
+// import trumpinHomeImg from './trumpinHome.png';
+
+// import lasVaguenessHomeImg from "./lasVaguenessHome.png";
+
+// const styles = {
+//   homeImg: {
+//     position: "absolute",
+
+//     width: "100vh",
+//     left: "0%"
+//   },
+//   homeImgIpad: {
+//     position: "absolute",
+//     height: "auto",
+//     width: "100vw",
+//     left: "0%"
+//   },
+//   homeImgMobile: {
+//     position: "absolute",
+//     height: "auto",
+//     width: "100vw",
+//     left: "0%"
+//   }
+// };
+
+class AboutMe extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      selection: 0
+    };
+  }
+
+  onEnter = item => {
+    this.setState(prevState => ({
+      selection: item
+    }));
+  };
+
   render() {
+    const images = [
+      {
+        label: "nutrition",
+        src: nutrition,
+        path: "./travellll.jpg"
+      },
+      {
+        label: "professional Dj",
+        src: djPhoto,
+        className: "dj ",
+        path: "./dj photo.jpg"
+      },
+      {
+        label: "event director",
+        src: djposter,
+        path: "./dj photo.jpg"
+      },
+
+      {
+        label: "snowboarder",
+        src: snowBoarding,
+        path: "./snowboarding photo.jpg"
+      },
+      {
+        label: "traveller",
+        src: travel,
+        path: "./travellll.jpg"
+      },
+      {
+        label: "festivals",
+        src: festivals,
+        path: "./travellll.jpg"
+      },
+      {
+        label: "Audiobooks",
+        src: audioBooks,
+        path: "./travellll.jpg"
+      }
+    ];
+
     return (
-      <div className="container">
-        <div className="name">
-          <h1>Omar Sultani</h1>
-          <h3>Junior Full stack web developer</h3>
-          <div className="location ">
-            <h4>Nottingham</h4>
-            {/* put robin hood icon picture here */}
-          </div>
-          <p>
-            Html, Css, Javascript, (ES6/ES7),
-            <p>React , Node js, Mongo db, Github, command line</p>
-          </p>
-          <div className="btn-container" />
-          <button className="button"> Projects</button>
-          <button className="button">Experiance</button>
-          <button className="button">About me</button>
-          <button className="button">Contact</button>
+      <>
+        <Nav />
+        <div className={css.imgContainter}>
+          {images
+            .filter((selection, index) => {
+              return this.state.selection === index;
+            })
+            .map(selection => (
+              <img
+                className={css.homeImg}
+                src={selection.src}
+                alt={selection.label}
+                // href={selection.href}
+              />
+            ))}
         </div>
-      </div>
+        <h1 className={css.title}>About me</h1>
+        <div className={css.titlesTextBox}>
+          {images.map((selection, index) => (
+            <h3
+              className={selection.className}
+              onMouseEnter={() => this.onEnter(index)}
+            >
+              {selection.label.toUpperCase()}
+            </h3>
+          ))}
+        </div>
+      </>
     );
   }
 }
