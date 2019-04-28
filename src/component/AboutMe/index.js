@@ -13,7 +13,7 @@ import React, { Component } from "react";
 // import MediaQuery from "react-responsive";
 import css from "./AboutMe.module.css";
 import djPhoto from "./dj photo.jpg";
-import djposter from "./thegroove.jpg";
+import djposter from "./thegrooveevents.jpg";
 
 import snowBoarding from "./snowboarding photo.jpg";
 import travel from "./travellll.jpg";
@@ -63,7 +63,7 @@ class AboutMe extends Component {
   render() {
     const images = [
       {
-        label: "nutrition",
+        label: "nutrition & exercise",
         src: nutrition,
         path: "./travellll.jpg"
       },

@@ -7,7 +7,7 @@
 
 .imgContainter {
   border: solid 50px var(--palm);
-  width: 80vh;
+  width: 90vh;
   height: 80vh;
   padding: 0px;
   border-radius: 10px;
@@ -17,7 +17,7 @@
 
 .homeImg {
   position: absolute;
-  width: 80vh;
+  width: 90vh;
   height: 80vh;
   box-shadow: 5px 5px 5px 5px rgb(216, 178, 9);
 }
@@ -25,15 +25,16 @@
 .title {
   position: absolute;
   color: var(--sand);
-  top: 160px;
+  top: 100px;
   right: 5.5%;
   height: 400px;
   width: 369px;
   text-align: right;
+  text-decoration: underline;
 }
 .titlesTextBox {
   position: absolute;
-  top: 210px;
+  top: 150px;
   right: 5.5%;
   height: 400px;
   width: 369px;

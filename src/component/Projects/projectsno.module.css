@@ -1,0 +1,53 @@
+/* body {
+  background-color: #1fb58f;
+} */
+:root {
+  --ocean: #1fb58f;
+  --sand: #eab125;
+  --cocktail: #f24c4e;
+  --palm: #1b7b34;
+}
+
+.h1 {
+  /* margin: 100px; */
+}
+
+.background {
+  background-color: var(--palm);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.computerWrapper {
+  position: relative;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* margin: auto; */
+}
+
+.computer {
+  height: auto;
+  width: 100%;
+  position: relative;
+  z-index: 100;
+}
+
+.whiteNoise {
+  top: 50px;
+  left: 40px;
+  height: auto;
+  width: 77%;
+  position: absolute;
+  z-index: 1;
+}
+
+.buttonbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
