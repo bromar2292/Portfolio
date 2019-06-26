@@ -6,7 +6,7 @@ import "./App.css";
 import Projects from "../Projects/index";
 import Experience from "../Experience";
 import { Route, Switch } from "react-router-dom";
-
+import results from "../resultsExample";
 const App = () => (
   <main>
     <Switch>
@@ -15,6 +15,8 @@ const App = () => (
       <Route path="/contact" component={Contact} />
       <Route path="/projects" component={Projects} />
       <Route path="/aboutme" component={AboutMe} />
+      <Route path="/results" component={results} />
+
       {/* <Route path="/lasvag" component={LasVagueness} />
       <Route path="" component={Phorm} />
       <Route path="/operationp" component={OperationPlumbob} />

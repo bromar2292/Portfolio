@@ -1,5 +1,5 @@
 .ogBackGround {
-  background-color: #eab126;
+  background-color: var(--blue);
   height: 100vh;
   display: flex;
   justify-content: center;

@@ -63,36 +63,40 @@ class AboutMe extends Component {
   render() {
     const images = [
       {
-        label: "Audiobooks",
-        src: audioBooks,
-        path: "./travellll.jpg"
-      },
-      {
         label: "nutrition & exercise",
         src: nutrition,
         path: "./travellll.jpg"
       },
       {
-        label: "Professional Dj",
+        label: "professional Dj",
         src: djPhoto,
         className: "dj ",
         path: "./dj photo.jpg"
       },
-
       {
-        label: "Event director",
+        label: "event director",
         src: djposter,
         path: "./dj photo.jpg"
       },
 
       {
-        label: "Snowboarder",
+        label: "snowboarder",
         src: snowBoarding,
         path: "./snowboarding photo.jpg"
       },
       {
-        label: "Traveller",
+        label: "traveller",
         src: travel,
+        path: "./travellll.jpg"
+      },
+      {
+        label: "festivals",
+        src: festivals,
+        path: "./travellll.jpg"
+      },
+      {
+        label: "Audiobooks",
+        src: audioBooks,
         path: "./travellll.jpg"
       }
     ];
@@ -100,16 +104,29 @@ class AboutMe extends Component {
     return (
       <>
         <Nav />
-        <div className={css.wrapper}>
+        <div className={css.imgContainter}>
+          {images
+            .filter((selection, index) => {
+              return this.state.selection === index;
+            })
+            .map(selection => (
+              <img
+                className={css.homeImg}
+                src={selection.src}
+                alt={selection.label}
+                // href={selection.href}
+              />
+            ))}
+        </div>
+        <h1 className={css.title}>About me</h1>
+        <div className={css.titlesTextBox}>
           {images.map((selection, index) => (
-            <div className={css.item}>
-              <div className={css.polaroid}>
-                <img src={selection.src} alt={selection.label} />
-                <div className={css.caption}>
-                  {selection.label.toUpperCase()}
-                </div>
-              </div>
-            </div>
+            <h4
+              className={selection.className}
+              onMouseEnter={() => this.onEnter(index)}
+            >
+              {selection.label.toUpperCase()}
+            </h4>
           ))}
         </div>
       </>

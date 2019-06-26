@@ -1,6 +1,17 @@
 /* .App {
   text-align: center;
 } */
+
+:root {
+  --ocean: #1fb58f;
+  --sand: #eab125;
+  --cocktail: #f24c4e;
+  --palm: #1b7b34;
+}
+/* --ocean: #1fb58f;
+  ;
+  --cocktail: #f24c4e;
+   */
 body {
-  background-color: rgb(241, 235, 235);
+  background-color: white;
 }

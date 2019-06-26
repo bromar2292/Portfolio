@@ -1,0 +1,69 @@
+:root {
+  --ocean: #1fb58f;
+  --sand: #eab125;
+  --cocktail: #f24c4e;
+  --palm: #1b7b34;
+}
+.imgContainter {
+  border: solid 50px var(--palm);
+  width: 90vh;
+  height: 80vh;
+  padding: 0px;
+  border-radius: 10px;
+  display: flex;
+  box-shadow: 5px 5px 5px 5px var(--cocktail);
+}
+
+.homeImg {
+  position: absolute;
+  width: 90vh;
+  height: 80vh;
+  box-shadow: 5px 5px 5px 5px rgb(216, 178, 9);
+}
+
+.title {
+  position: absolute;
+  color: var(--cocktail);
+  top: 100px;
+  right: 5.5%;
+  height: 400px;
+  width: 369px;
+  text-align: right;
+  text-decoration: underline;
+}
+.titlesTextBox {
+  position: absolute;
+  top: 150px;
+  right: 5.5%;
+  height: 400px;
+  width: 369px;
+  text-align: right;
+}
+
+h4 {
+  color: var(--palm);
+  font-weight: 400;
+}
+
+h4:hover {
+  color: var(--sand);
+  font: bold;
+}
+p:hover {
+  color: var(--cocktail);
+}
+.homeMobImg {
+  position: relative;
+  height: 350px;
+  width: 100%;
+  top: 400px;
+  overflow: hidden;
+}
+
+.homeIpadImg {
+  position: relative;
+  top: 500px;
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+}

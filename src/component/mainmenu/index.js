@@ -19,7 +19,7 @@ class MainMenu extends React.Component {
               <div classname={css.text}>
                 <div className={css.text}>
                   <h2 className={css.title}>Omar Sultani</h2>
-                  <h3>Junior Full stack web developer</h3>
+                  <h3>Junior Front end developer</h3>
                   <div className="location ">
                     <h4>Nottingham</h4>
                     {/* put robin hood icon picture here */}
