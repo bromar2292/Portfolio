@@ -9,7 +9,7 @@ import soup from "./soupforsoul.jpg";
 import pushkins from "./Screen Shot 2019-04-28 at 11.11.38.png";
 import Nav from "../navbar";
 import ecotech from "./eco.png";
-
+import talent from "./talentgrid.png";
 import mongodb from "./mongodb.png";
 import nodejs from "./nodejs.png";
 import react from "./react.png";
@@ -53,7 +53,7 @@ class Projects extends React.Component {
         tech: react,
 
         description:
-          "persional project combing love for nutrition and tech, medi meals is a work in progress which will "
+          "Persional project combining my passions for nutrition and tech, medi meals is a work in progress which will give people the best nutritional recipies based on which illness they have , this is built in react javascript and html, it will work with my own data in mongo db, it will also use restul api from edaman to gather other recipies "
       },
       {
         label: "pushkins prefers",
@@ -62,26 +62,25 @@ class Projects extends React.Component {
         tech: react,
 
         description:
-          "In school of code this was my final project, in the last 20 days as a team of 4 we built the eccomunity app, with no experiance with any of these technologies we built a working mobile app. This app shows you to eco friendly busineses in your local area, and gives your points for shopping at differnt locations, with live updates using a barcode system. "
+          "Shadowing and working with the lead designer of razzberry pie as he works on his website involving music we both love, often contributing in javascript code and learning much of the design fundimentals from a highly experianced proffessional "
       },
 
       {
-        label: "hr chart",
-        src: groove,
+        label: "talent chart",
+        src: talent,
         path: "./dj photo.jpg",
         tech: hr,
         description:
-          "In school of code this was my final project, in the last 20 days as a team of 4 we built the eccomunity app, with no experiance with any of these technologies we built a working mobile app. This app shows you to eco friendly busineses in your local area, and gives your points for shopping at differnt locations, with live updates using a barcode system. "
+          "A huge problem in some big companies is managing talent, sometimes this is done on paper, so we created a grid system , which is password protected, that alows you to organise your employees talent, then save the grid to come back to at another time, we built this in react and used node js mongo db for the back end to store the information"
       },
       {
         label: "Music events",
         src: groove,
         path: "./dj photo.jpg",
         tech: record,
-        CSS,
-        html,
+
         description:
-          "In school of code this was my final project, in the last 20 days as a team of 4 we built the eccomunity app, with no experiance with any of these technologies we built a working mobile app. This app shows you to eco friendly busineses in your local area, and gives your points for shopping at differnt locations, with live updates using a barcode system. "
+          "For 6 years I have ran multiple nights in nottingham as well as being apart of festivals, design, promotion, marketing, accounting and managing , this is a great example of someone who is happy to learn and take initiive aswell as creative thinking"
       }
     ];
     return (
@@ -116,13 +115,13 @@ class Projects extends React.Component {
               ))}
           </div>
           <div>
-            <h2> Description :</h2>
+            <h2 className={css.descriptionTitle}> Description :</h2>
             {images
               .filter((selection, index) => {
                 return this.state.selection === index;
               })
               .map(selection => (
-                <h6>{selection.description}</h6>
+                <h6 className={css.description}>{selection.description}</h6>
               ))}
           </div>
         </div>

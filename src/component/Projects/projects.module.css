@@ -107,6 +107,17 @@
   height: 80vh;
   box-shadow: 5px 5px 5px 5px white;
 }
+.descriptionTitle {
+  position: relative;
+  left: 100px;
+  max-width: 1000px;
+}
+.description {
+  position: relative;
+  left: 100px;
+  max-width: 1000px;
+  font-size: 100%;
+}
 
 h2 {
   color: var(--sand);
