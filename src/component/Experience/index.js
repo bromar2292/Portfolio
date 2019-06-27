@@ -37,11 +37,11 @@ class Experience extends React.Component {
             <img className={css.binder} src={binder} alt="binder" />
             <div className={css.pg}>
               <h1 className={css.experience}> Experience</h1>
-              <h3 className={css.work}>School of code </h3>
+              <h3 className={css.work}>School of Code </h3>
 
               <div className={css.txt}>
                 <li>
-                  Graduated from the legendary school of code 16 week intensive
+                  Graduated from the legendary School of Code 16 week intensive
                   bootcamp
                 </li>
 
