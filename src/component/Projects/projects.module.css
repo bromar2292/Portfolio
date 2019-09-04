@@ -117,6 +117,7 @@
   left: 100px;
   max-width: 1000px;
   font-size: 100%;
+  color: var(--palm);
 }
 
 h2 {

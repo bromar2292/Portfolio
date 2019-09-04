@@ -9,12 +9,11 @@
   box-sizing: border-box;
 }
 
-.body {
+.body1 {
   /* font-family: "Poor Story", cursive; */
   background: #bdffbd;
 }
-
-.wrapper {
+*.wrapper {
   width: 100%;
   padding: 0 2rem;
   text-align: center;
@@ -111,4 +110,10 @@
   right: 5%;
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
   transition: all 0.35s;
+}
+.backgroundImg {
+  position: absolute;
+  height: 100vh;
+  width: 80%;
+  z-index: 0;
 }

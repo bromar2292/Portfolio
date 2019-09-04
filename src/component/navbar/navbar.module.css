@@ -18,6 +18,7 @@
   height: 400px;
   width: 300px;
   text-align: right;
+  z-index: 100;
 }
 .navbar {
   display: flex;

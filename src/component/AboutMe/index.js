@@ -14,7 +14,7 @@ import React, { Component } from "react";
 import css from "./AboutMe.module.css";
 import djPhoto from "./dj photo.jpg";
 import djposter from "./thegrooveevents.jpg";
-
+import record from "./record2.jpg";
 import snowBoarding from "./snowboarding photo.jpg";
 import travel from "./travellll.jpg";
 import festivals from "./musicfestivals.jpg";
@@ -100,6 +100,9 @@ class AboutMe extends Component {
     return (
       <>
         <Nav />
+        <div className={css.backgroundImg}>
+          <img src={record} alt="background record" />
+        </div>
         <div className={css.wrapper}>
           {images.map((selection, index) => (
             <div className={css.item}>
