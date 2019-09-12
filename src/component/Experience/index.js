@@ -40,18 +40,18 @@ class Experience extends React.Component {
               <h3 className={css.work}>School of Code </h3>
 
               <div className={css.txt}>
-                <li>
+                <li className={css.txt}>
                   Graduated from the legendary School of Code 16 week intensive
-                  bootcamp
+                  bootcamp.
                 </li>
 
-                <li className={css.thins}>
-                  Created sites and mobile aps, then presented as part of a team
-                  on demo day
+                <li className={css.txt}>
+                  Created sites and mobile apps, then presented as part of a
+                  team on demo day.
                 </li>
-                <li className={css.thins}>
+                <li className={css.txt}>
                   High focus on team work presentations, soft skills, networking
-                  and the art of googling
+                  and the art of googling.
                 </li>
 
                 <h3 className={css.work}> Go daddy </h3>
@@ -59,13 +59,13 @@ class Experience extends React.Component {
                 <div className={css.txt}>
                   <li>
                     Sold websites and marketing solutions to a wide range of
-                    businesses
+                    businesses.
                   </li>
-                  <li>Top sales performer, and regular change maker,</li>
+                  <li>Top sales performer and regular change maker.</li>
 
-                  <li className={css.thins}>
-                    Strength in understanding online businiess needs and solving
-                    problems
+                  <li>
+                    Strength in understanding online businesses needs and
+                    solving problems.
                   </li>
                 </div>
                 <h3 className={css.work}>Professional DJ and event runner </h3>
@@ -73,15 +73,15 @@ class Experience extends React.Component {
                 <div className={css.txt}>
                   <li>
                     Much like coding, djing is a skill you are always improving
-                    on theres always more music/ ways to code
+                    on theres always more music/ ways to code.
                   </li>
                   <li>
                     Huge amount of creative transferable skills such as
-                    marketing ,design ,networking and management
+                    marketing ,design ,networking and management.
                   </li>
 
-                  <li className={css.thins}>
-                    Evidence of drive, passion and self starter attributes
+                  <li className={css.txt}>
+                    Evidence of drive, passion and self starter attributes.
                   </li>
                 </div>
               </div>
