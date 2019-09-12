@@ -80,7 +80,7 @@ class Experience extends React.Component {
                     marketing ,design ,networking and management.
                   </li>
 
-                  <li className={css.txt}>
+                  <li>
                     Evidence of drive, passion and self starter attributes.
                   </li>
                 </div>
