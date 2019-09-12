@@ -77,11 +77,11 @@ class Experience extends React.Component {
                   </li>
                   <li>
                     Huge amount of creative transferable skills such as
-                    marketing , design , networking and project management
+                    marketing ,design ,networking and management
                   </li>
 
                   <li className={css.thins}>
-                    Evidence of drive, passion and self starter attriubutes
+                    Evidence of drive, passion and self starter attributes
                   </li>
                 </div>
               </div>

@@ -44,7 +44,7 @@ class Projects extends React.Component {
         path: "./travellll.jpg",
         tech: ecotech,
         description:
-          "In school of code this was my final project, in the last 20 days as a team of 4 we built the eccomunity app, with no experiance with any of these technologies we built a working mobile app. This app shows you to eco friendly busineses in your local area, and gives your points for shopping at differnt locations, with live updates using a barcode system. "
+          "In the school of code, this was my final project. In the last 20 days as a team of 4, we built the Eccomunity app, with no experience with any of these technologies we built a working mobile app. This app guides you to eco-friendly businesses in your local area and gives you points for shopping at different locations, with live updates using a barcode system."
       },
       {
         label: "medimeals",
@@ -53,7 +53,7 @@ class Projects extends React.Component {
         tech: react,
 
         description:
-          "Persional project combining my passions for nutrition and tech, medi meals is a work in progress which will give people the best nutritional recipies based on which illness they have , this is built in react javascript and html, it will work with my own data in mongo db, it will also use restul api from edaman to gather other recipies "
+          "Personal project combining my passions for nutrition and tech, Medimeals is a work in progress which will give people the best nutritional recipes based on which illness they have , this is built-in react javascript and HTML, it will work with my own data in mongo DB, it will also use restful API from edamame to gather other recipes."
       },
       {
         label: "pushkins prefers",
@@ -62,7 +62,7 @@ class Projects extends React.Component {
         tech: react,
 
         description:
-          "Shadowing and working with the lead designer of razzberry pie as he works on his website involving music we both love, often contributing in javascript code and learning much of the design fundimentals from a highly experianced proffessional "
+          "Shadowing and working with the lead designer of razzberry pie as he works on his website involving music we both love, often contributing to javascript code and learning much of the design fundamentals from a highly experienced professional"
       },
 
       {
@@ -71,7 +71,7 @@ class Projects extends React.Component {
         path: "./dj photo.jpg",
         tech: hr,
         description:
-          "A huge problem in some big companies is managing talent, sometimes this is done on paper, so we created a grid system , which is password protected, that alows you to organise your employees talent, then save the grid to come back to at another time, we built this in react and used node js mongo db for the back end to store the information"
+          "A huge problem in some big companies is managing talent, sometimes this is done on paper, so we created a grid system, which is password protected, that allows you to organise your employees talent, then save the grid to come back to at another time, we built this in react and used node js Mongo DB for the back end to store the information."
       },
       {
         label: "Music events",
@@ -80,7 +80,7 @@ class Projects extends React.Component {
         tech: record,
 
         description:
-          "For 6 years I have ran multiple nights in nottingham as well as being apart of festivals, design, promotion, marketing, accounting and managing , this is a great example of someone who is happy to learn and take initiive aswell as creative thinking"
+          "For 6 years I have run multiple nights in Nottingham as well as being apart of festivals, design, promotion, marketing, accounting and managing, this is a great example of someone who is happy to learn and take initiative as well as creative thinking."
       }
     ];
     return (

@@ -169,3 +169,5 @@ p:hover {
   height: 600px;
   overflow: hidden;
 }
+@media (min-width: 600px) {
+}
