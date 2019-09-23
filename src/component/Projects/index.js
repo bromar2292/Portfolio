@@ -5,23 +5,25 @@ import css from "./projects.module.css";
 import medimeals from "./Screen Shot 2019-04-26 at 14.15.34.png";
 import groove from "./groove.png";
 import record from "./record.jpg";
-import soup from "./soupforsoul.jpg";
+// import soup from "./soupforsoul.jpg";
 import pushkins from "./Screen Shot 2019-04-28 at 11.11.38.png";
 import Nav from "../navbar";
 import ecotech from "./eco.png";
 import talent from "./talentgrid.png";
-import mongodb from "./mongodb.png";
-import nodejs from "./nodejs.png";
+// import mongodb from "./mongodb.png";
+// import nodejs from "./nodejs.png";
 import react from "./react.png";
-import reactNative from "./reactnative.png";
-import firebase from "./firebase_logo_shot.png";
-import CSS from "./css.png";
-import html from "./html.png";
-import js from "./js.png";
-import adobeXD from "./adobe.png";
-
+// import reactNative from "./reactnative.png";
+// import firebase from "./firebase_logo_shot.png";
+// import CSS from "./css.png";
+// import html from "./html.png";
+// import js from "./js.png";
+// import adobeXD from "./adobe.png";
+import columba from "./columba.png";
 import hr from "./hr.png";
 import eco from "./ecomune.png";
+import wordpress from "./WordPress.png";
+
 class Projects extends React.Component {
   constructor(props) {
     super(props);
@@ -38,6 +40,14 @@ class Projects extends React.Component {
 
   render() {
     const images = [
+      {
+        label: "Columba Network",
+        src: columba,
+        path: "./travellll.jpg",
+        tech: wordpress,
+        description:
+          "Paid work for the amazing agency called columba network, with no previous experiance building a wordpress website, I built this websit from scratch using wordpress."
+      },
       {
         label: "Ecommunity",
         src: eco,
@@ -58,7 +68,7 @@ class Projects extends React.Component {
       {
         label: "pushkins prefers",
         src: pushkins,
-        path: "./travellll.jpg",
+       
         tech: react,
 
         description:
@@ -68,7 +78,6 @@ class Projects extends React.Component {
       {
         label: "talent chart",
         src: talent,
-        path: "./dj photo.jpg",
         tech: hr,
         description:
           "A huge problem in some big companies is managing talent, sometimes this is done on paper, so we created a grid system, which is password protected, that allows you to organise your employees talent, then save the grid to come back to at another time, we built this in react and used node js Mongo DB for the back end to store the information."
@@ -76,7 +85,7 @@ class Projects extends React.Component {
       {
         label: "Music events",
         src: groove,
-        path: "./dj photo.jpg",
+       
         tech: record,
 
         description:
@@ -105,7 +114,7 @@ class Projects extends React.Component {
             <div className={css.btm} />
             <div className={css.shadow} />
           </div>
-          <div className={css.titlecontainer}>
+          <div>
             {images
               .filter((selection, index) => {
                 return this.state.selection === index;
