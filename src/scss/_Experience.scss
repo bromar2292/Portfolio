@@ -1,0 +1,143 @@
+:root {
+  --ocean: #1fb58f;
+  --sand: #eab125;
+  --cocktail: #f24c4e;
+  --palm: #1b7b34;
+}
+
+.experience-experience {
+  text-decoration: underline;
+
+  color: var(--ocean);
+  font-size: 30px;
+  margin: 0px 0px -10px 20px;
+  @include responsive($breakpoint: "md") {
+    text-decoration: underline;
+
+    color: var(--ocean);
+    font-size: 40px;
+    margin: 0px;
+  }
+  @include responsive($breakpoint: "lg") {
+    text-decoration: underline;
+
+    color: var(--ocean);
+    font-size: 40px;
+    margin: 0px;
+  }
+}
+.work-container {
+  padding: 20px;
+
+  margin: 10px 0px;
+}
+
+.work {
+  color: black;
+  font-size: 20px;
+}
+.work:hover {
+  color: $ocean;
+  font-size: 20px;
+}
+.company {
+  // color: var(--cocktail);
+  margin: -6px 0 15px 0;
+  font-size: 15px;
+  @include responsive($breakpoint: "md") {
+    margin: -6px 0 15px 0;
+    font-size: 16px;
+  }
+  @include responsive($breakpoint: "lg") {
+    margin: -6px 0 15px 0;
+    font-size: 18px;
+  }
+}
+.txt {
+  font-size: 12px;
+  text-align: left;
+  margin-left: 0px;
+  @include responsive($breakpoint: "md") {
+    font-size: 15px;
+    text-align: left;
+  }
+  @include responsive($breakpoint: "lg") {
+    font-size: 15px;
+    text-align: left;
+  }
+}
+
+.notepad {
+  margin-top: 10%;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  @include responsive($breakpoint: "md") {
+    margin-top: 25%;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  @include responsive($breakpoint: "lg") {
+    margin-top: 20%;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+  }
+}
+
+.pg {
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: center;
+  text-align: left;
+  list-style: none;
+  @include responsive($breakpoint: "md") {
+    list-style: circle;
+    text-align: left;
+  }
+  @include responsive($breakpoint: "lg") {
+    text-align: left;
+  }
+  // border: 1px solid #f4f5f7;
+  // border-top: 20px solid #f4f5f7;
+  // border-radius: 5px;
+  // box-shadow: 0px 0px 0px 0px #e0625e;
+}
+
+.title {
+  color: var(--palm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.work-container:hover {
+  color: $ocean;
+  h3 {
+    color: $ocean;
+  }
+  @include responsive($breakpoint: "lg") {
+    text-align: left;
+
+    box-shadow: 0 0 0.8rem 0.1rem rgba(darken($cAccent, 20%), 0.06),
+      0 20px 30px -10px rgba(darken($cAccent, 20%), 0.2);
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px 0px;
+    color: $ocean;
+    h3 {
+      color: $ocean;
+    }
+  }
+  // background-color: $ocean;
+}

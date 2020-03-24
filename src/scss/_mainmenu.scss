@@ -1,0 +1,140 @@
+@import "mixin";
+$yellow: #eab126;
+
+.ogBackGround {
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.name {
+  color: var(--sand);
+  font-size: 36px;
+  font-family: "mont";
+
+  @include responsive($breakpoint: "md") {
+    font-size: 60px;
+  }
+}
+.job-title {
+  color: var(--ocean);
+  font-weight: 400;
+  font-size: 20px;
+  @include responsive($breakpoint: "md") {
+    font-size: 30px;
+    font-family: "mont";
+    margin-top: -25px;
+  }
+}
+
+.background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  background-color: white;
+}
+.container {
+  padding: 10px;
+  @include responsive($breakpoint: "mlg") {
+    // display: flex;
+    // justify-content: center;
+    // padding: 5px;
+    // border: solid 10px var(--palm);
+    // border-radius: 10px;
+    // background-color: rgb(244, 249, 250);
+    // text-indent: 10px;
+    /* padding: 0.5rem;
+  height: 300px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.03);
+  border-radius: 4px; */
+
+    font-family: "Lucida Console", Monaco, monospace;
+  }
+
+  /* border: 3px solid black; */
+}
+/* .text {
+  display: flex;
+  align-content: flex-start;
+  align-items: flex-start;
+} */
+.text {
+  left: 5px;
+  p {
+    line-height: 25px;
+    text-align: left;
+  }
+}
+.contact {
+  @include responsive($breakpoint: "mlg") {
+    text-indent: 30px;
+  }
+}
+.title {
+  text-align: left;
+  font-size: 60px;
+  font-family: "mont";
+  @include responsive($breakpoint: "md") {
+    font-size: 80px;
+  }
+  // text-decoration: underline;
+}
+.picture {
+  display: none;
+  @include responsive($breakpoint: "mlg") {
+    display: none;
+    height: 296px;
+    width: auto;
+  }
+}
+.skills {
+  font-family: "mont";
+  font-size: 14px;
+  @include responsive($breakpoint: "md") {
+    font-size: 20px;
+  }
+}
+
+.menu-navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: -5px 0;
+  @include responsive($breakpoint: "sm") {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.menu-nav-contents {
+  color: black;
+  padding: 15px 20px;
+  text-align: center;
+  font-family: "mont";
+  border: 1px solid black;
+
+  border-radius: 5px;
+  @include responsive($breakpoint: "sm") {
+    padding: 16px 40px;
+  }
+  @include responsive($breakpoint: "md") {
+    padding: 20px 60px;
+    font-size: 22px;
+  }
+  @include responsive($breakpoint: "lg") {
+    padding: 20px 80px;
+    font-size: 24px;
+  }
+}
+.location {
+  @include responsive($breakpoint: "md") {
+    font-size: 25px;
+  }
+}
+.menu-nav-contents:hover {
+  box-shadow: 0 0 0.8rem 0.1rem rgba(darken($cAccent, 20%), 0.06),
+    0 20px 30px -10px rgba(darken($cAccent, 20%), 0.2);
+}

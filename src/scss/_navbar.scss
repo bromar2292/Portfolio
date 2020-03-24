@@ -1,0 +1,156 @@
+:root {
+  --ocean: #1fb58f;
+  --sand: #eab125;
+  --cocktail: #f24c4e;
+  --palm: #1b7b34;
+}
+.homePage {
+  height: 40px;
+  width: auto;
+}
+.navContainer {
+  /* border: 2px;
+  width: 45vh;
+  right: 400px; */
+
+  @include responsive($breakpoint: "md") {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+
+    width: 100%;
+
+    z-index: 100;
+  }
+}
+.navbar {
+  display: flex;
+  background-color: white;
+  border-bottom: solid 1px lightgrey;
+  justify-content: space-between;
+  @include responsive($breakpoint: "md") {
+    display: flex;
+    padding: 20px 80px;
+    justify-content: space-between;
+    width: 100%;
+    height: 55px;
+    background-color: white;
+    border-bottom: solid 1px lightgrey;
+  }
+}
+.nav-menu {
+  display: none;
+  @include responsive($breakpoint: "md") {
+    display: flex;
+    justify-content: space-evenly;
+    width: 320px;
+    margin-left: 35px;
+  }
+}
+.home {
+  font-size: 40px;
+  margin: 0;
+  padding: 10px 0 5px 15px;
+  color: var(--sand);
+  @include responsive($breakpoint: "sm") {
+    font-size: 60px;
+    margin: 0;
+    color: var(--sand);
+    padding: 10;
+  }
+  @include responsive($breakpoint: "md") {
+    font-size: 60px;
+    margin: 0;
+    color: var(--sand);
+    padding: 00;
+  }
+}
+.home:hover {
+  font-size: 66px;
+  margin: 0;
+  color: var(--sand);
+}
+.projects {
+  font-size: 20px;
+  color: var(--palm);
+}
+.projects:hover {
+  font-size: 22px;
+  color: var(--palm);
+}
+.experience {
+  color: var(--ocean);
+  font-size: 20px;
+  @include responsive($breakpoint: "sm") {
+    margin-left: 35px;
+  }
+}
+.experience:hover {
+  color: var(--ocean);
+  font-size: 22px;
+  @include responsive($breakpoint: "sm") {
+    margin-left: 35px;
+  }
+}
+
+.contact {
+  color: var(--cocktail);
+  font-size: 20px;
+  @include responsive($breakpoint: "md") {
+    margin-left: 20px;
+  }
+  @include responsive($breakpoint: "lg") {
+    margin-left: 0px;
+  }
+}
+.contact:hover {
+  color: var(--cocktail);
+  font-size: 22px;
+}
+.hamburger {
+  height: 20px;
+  padding: 20px;
+  cursor: pointer;
+  z-index: 2;
+
+  @include responsive($breakpoint: "sm") {
+    height: 30px;
+    padding: 30px;
+  }
+  @include responsive($breakpoint: "md") {
+    display: none;
+  }
+}
+.true {
+  display: none;
+}
+.false {
+  position: absolute;
+  display: flex;
+  top: 10px;
+  right: 10px;
+  height: 150px;
+  width: 100px;
+  z-index: 1;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 5px;
+  color: black !important;
+  background-color: white;
+  padding: 40px;
+
+  border: 2px solid $sand;
+  @include responsive($breakpoint: "md") {
+    display: none;
+  }
+}
+.hamburger-menu {
+  color: black;
+  margin: 15px 0;
+}
+.hamburger-menu:hover {
+  color: black;
+  margin: 5px 0;
+  text-decoration: underline;
+}

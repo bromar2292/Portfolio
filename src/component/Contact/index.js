@@ -1,16 +1,55 @@
 import React from "react";
-import css from "./Contact.module.css";
-
+import Nav from "../navbar/index";
 class Contact extends React.Component {
   render() {
     return (
       <>
-        <div className={css.h1}>
-          <h1>Contact</h1>
-          <div>
-            <div> email : omarsultani@msn.com</div>
-            <div> linked in : blah blah blah</div>
-            <div> Github : blah blah </div>
+        <Nav />
+        <div className="contact-page">
+          <div className="contact-page-container">
+            <h1>Contact</h1>
+            <p>
+              Theres nothing I love more than speaking to and learning from new
+              people. Drop me an email or message me on linked in I would love
+              to hear from you.{" "}
+            </p>
+            <div className="links-container">
+              <a
+                href="mailto:omarsultani@msn.com"
+                style={{ textDecoration: "none" }}
+                className="contact-links"
+              >
+                Email
+              </a>
+              <a
+                href="https://www.linkedin.com/in/omar-sultani/"
+                style={{ textDecoration: "none" }}
+                className="contact-links"
+              >
+                Linked in
+              </a>
+              <a
+                href="https://www.linkedin.com/in/omar-sultani/"
+                style={{ textDecoration: "none" }}
+                className="contact-links"
+              >
+                Github
+              </a>
+              {/* <a
+                className="contact-link"
+                href="https://www.linkedin.com/in/omar-sultani/"
+              >
+                <img />
+              </a>
+            </div>
+            <div>
+              <a
+                className="contact-link"
+                href="https://www.linkedin.com/in/omar-sultani/"
+              >
+                <img />
+              </a> */}
+            </div>
           </div>
         </div>
       </>

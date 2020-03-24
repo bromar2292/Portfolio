@@ -4,9 +4,12 @@
   "private": true,
   "dependencies": {
     "react": "^16.8.6",
+    "react-animated-burgers": "^1.2.7",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.0",
-    "react-scripts": "^3.1.2"
+    "react-scripts": "^3.4.0",
+    "sass": "^1.26.3",
+    "styled-components": "^5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",

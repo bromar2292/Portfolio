@@ -1,0 +1,70 @@
+@import "mixin";
+$ocean: #1fb58f;
+$sand: #eab125;
+$cocktail: #f24c4e;
+$palm: #1b7b34;
+.contact-page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.contact-page-container {
+  width: 80%;
+  h1 {
+    text-align: center;
+    color: var(--cocktail);
+    @include responsive($breakpoint: "md") {
+      text-align: left;
+    }
+    @include responsive($breakpoint: "lg") {
+      text-align: left;
+      font-size: 40px;
+    }
+  }
+  @include responsive($breakpoint: "md") {
+    width: 80%;
+  }
+  p {
+    @include responsive($breakpoint: "lg") {
+      text-align: left;
+      font-size: 20px;
+    }
+  }
+}
+.links-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  @include responsive($breakpoint: "md") {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+.contact-links {
+  color: black;
+  padding: 25px 40px;
+  margin: 15px 0px;
+  text-align: center;
+  font-family: "mont";
+  z-index: 100;
+  border: 1px solid black;
+
+  border-radius: 5px;
+  cursor: pointer;
+  @include responsive($breakpoint: "sm") {
+    padding: 16px 40px;
+  }
+  @include responsive($breakpoint: "md") {
+    padding: 20px 60px;
+  }
+  @include responsive($breakpoint: "lg") {
+    padding: 20px 80px;
+    font-size: 20px;
+  }
+}
+.contact-links:hover {
+  box-shadow: 0 0 0.8rem 0.1rem rgba(darken($cAccent, 20%), 0.06),
+    0 20px 30px -10px rgba(darken($cAccent, 20%), 0.2);
+}

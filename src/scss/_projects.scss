@@ -1,11 +1,10 @@
 :root {
-  --ocean: #1fb58f;
-  --sand: #eab125;
+  $ocean: #1fb58f;
+  $sand: #eab125;
   --cocktail: #f24c4e;
   --palm: #1b7b34;
 }
-.body {
-  background-color: white;
+.body-projects {
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -111,19 +110,19 @@
   position: relative;
   left: 100px;
   max-width: 1000px;
+  color: var(--palm);
 }
 .description {
   position: relative;
   left: 100px;
   max-width: 1000px;
   font-size: 100%;
-  color: var(--palm);
 }
 
-h2 {
+.projects-h2 {
   color: var(--sand);
 }
-.title {
+.projects-title {
   position: absolute;
   color: var(--palm);
   top: 100px;
@@ -141,18 +140,25 @@ h2 {
   width: 369px;
   text-align: right;
   z-index: 101;
+  font-size: 20px;
+}
+.titlesTextBox :hover {
+  color: var(--palm);
+  font-size: 28px;
+  // text-decoration: underline;
+  cursor: pointer;
 }
 
-h3 {
+.projects-h3 {
   color: var(--ocean);
   font-weight: 400;
 }
 
-h3:hover {
+.projects-h3:hover {
   color: var(--cocktail);
   font: bold;
 }
-p:hover {
+.projects-p:hover {
   color: var(--cocktail);
 }
 .homeMobImg {
