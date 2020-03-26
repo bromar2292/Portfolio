@@ -151,7 +151,7 @@ class Projects extends React.Component {
                   <h6 className="description">{selection.description}</h6>
                   <div className="mobile-skills">
                     {selection.skills.map((item, index) => (
-                      <p className="skills">{item}</p>
+                      <p className="skills-projects ">{item}</p>
                     ))}
                   </div>
                 </div>
@@ -175,7 +175,7 @@ class Projects extends React.Component {
               <p className="description-mobile"> {selection.description} </p>
               <div className="mobile-skills">
                 {selection.skills.map((item, index) => (
-                  <p>{item}</p>
+                  <p className="skills">{item}</p>
                 ))}
               </div>
             </div>

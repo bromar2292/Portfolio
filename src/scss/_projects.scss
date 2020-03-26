@@ -320,7 +320,7 @@
     display: flex;
   }
 }
-.skills {
+.skills-projects {
   display: flex;
   align-items: center;
 
@@ -337,7 +337,7 @@
     font-size: 14px;
   }
 }
-.skills:hover {
+.skills-projects :hover {
   box-shadow: 0 0 0.8rem 0.1rem rgba(darken($palm, 20%), 0.06),
     0 20px 30px -10px rgba(darken($palm, 20%), 0.2);
 }
