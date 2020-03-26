@@ -11,6 +11,9 @@ $palm: #1b7b34;
   justify-content: center;
 }
 .contact-page-container {
+  display: flex;
+  flex-direction: column;
+
   width: 80%;
   h1 {
     text-align: center;
@@ -67,4 +70,49 @@ $palm: #1b7b34;
 .contact-links:hover {
   box-shadow: 0 0 0.8rem 0.1rem rgba(darken($cAccent, 20%), 0.06),
     0 20px 30px -10px rgba(darken($cAccent, 20%), 0.2);
+}
+.picture-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  @include responsive($breakpoint: "lg") {
+    padding-bottom: 80px;
+    height: 100px;
+  }
+  h1 {
+    margin-bottom: 0px;
+  }
+  @include responsive($breakpoint: "lg") {
+    height: 96px;
+    width: auto;
+    h1 {
+      align-self: flex-start;
+      @include responsive($breakpoint: "md") {
+        margin-bottom: -30px;
+      }
+    }
+  }
+}
+.picture {
+  display: none;
+
+  @include responsive($breakpoint: "md") {
+    display: flex;
+    align-self: center;
+    height: 206px;
+    border: 2px solid $sand;
+    border-radius: 50%;
+    margin-bottom: -0px;
+    width: auto;
+  }
+  @include responsive($breakpoint: "lg") {
+    display: flex;
+    align-self: center;
+    height: 206px;
+    border: 2px solid $sand;
+    border-radius: 50%;
+    margin-bottom: -40px;
+    width: auto;
+  }
 }

@@ -101,6 +101,9 @@
     margin-left: 20px;
   }
   @include responsive($breakpoint: "lg") {
+    margin-left: 20px;
+  }
+  @include responsive($breakpoint: "mlg") {
     margin-left: 0px;
   }
 }

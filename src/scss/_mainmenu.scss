@@ -81,14 +81,7 @@ $yellow: #eab126;
   }
   // text-decoration: underline;
 }
-.picture {
-  display: none;
-  @include responsive($breakpoint: "mlg") {
-    display: none;
-    height: 296px;
-    width: auto;
-  }
-}
+
 .skills {
   font-family: "mont";
   font-size: 14px;

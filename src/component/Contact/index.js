@@ -1,5 +1,6 @@
 import React from "react";
 import Nav from "../navbar/index";
+import me from "./me.png";
 class Contact extends React.Component {
   render() {
     return (
@@ -7,11 +8,15 @@ class Contact extends React.Component {
         <Nav />
         <div className="contact-page">
           <div className="contact-page-container">
-            <h1>Contact</h1>
+            <div className="picture-container">
+              {" "}
+              <img className="picture" src={me} alt="pho" />
+              <h1>About me</h1>
+            </div>
             <p>
-              Theres nothing I love more than speaking to and learning from new
-              people. Drop me an email or message me on linked in I would love
-              to hear from you.{" "}
+              Hi my name is Omar Sultani and I love coding, teamwork for social
+              good and progressing my skills. My other passions are nutrition,
+              exercise, being a pro Dj and snowboarding.
             </p>
             <div className="links-container">
               <a
@@ -29,7 +34,7 @@ class Contact extends React.Component {
                 Linked in
               </a>
               <a
-                href="https://www.linkedin.com/in/omar-sultani/"
+                href="https://github.com/bromar2292?tab=repositories"
                 style={{ textDecoration: "none" }}
                 className="contact-links"
               >

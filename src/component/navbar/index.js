@@ -8,12 +8,15 @@ class Nav extends React.Component {
     super(props);
     this.state = {
       selection: 0,
-      isActive: false
+      isActive: true
     };
   }
   toggleButton = () => {
     this.setState({ isActive: !this.state.isActive });
     console.log(this.state.isActive);
+  };
+  false = () => {
+    this.setState({ isActive: true });
   };
 
   render() {
@@ -56,20 +59,33 @@ class Nav extends React.Component {
                 <h4 className="experience"> Experience</h4>
               </NavLink>
               <NavLink to="/contact" style={{ textDecoration: "none" }}>
-                <h4 className="contact">Contact </h4>
+                <h4 className="contact">About </h4>
               </NavLink>
             </div>
           </div>
         </div>
         <div className={`${this.state.isActive}`}>
-          <a href="/projects" style={{ textDecoration: "none" }}>
-            <div className="hamburger-menu"> Projects</div>
+          <a
+            href="/projects"
+            style={{ textDecoration: "none" }}
+            onClick={this.false}
+          >
+            <div onClick={this.false} className="hamburger-menu">
+              {" "}
+              Projects
+            </div>
           </a>
           <a href="/experience" style={{ textDecoration: "none" }}>
-            <div className="hamburger-menu"> Experience</div>
+            <div className="hamburger-menu" onClick={this.false}>
+              {" "}
+              Experience
+            </div>
           </a>
           <a href="/contact" style={{ textDecoration: "none" }}>
-            <div className="hamburger-menu"> Contact</div>
+            <div onClick={this.false} className="hamburger-menu">
+              {" "}
+              Contact
+            </div>
           </a>
         </div>
       </>

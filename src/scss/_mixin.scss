@@ -1,8 +1,8 @@
 $ocean: #1fb58f;
-  $sand: #eab125;
-  $cocktail: #f24c4e;
-  $palm: #1b7b34;
-  $cAccent: #3978ef;
+$sand: #eab125;
+$cocktail: #f24c4e;
+$palm: #1b7b34;
+$cAccent: #3978ef;
 @mixin responsive($breakpoint) {
   @if $breakpoint == sm {
     @media only screen and (min-width: 600px) {
@@ -15,12 +15,12 @@ $ocean: #1fb58f;
     }
   }
   @if $breakpoint == lg {
-    @media only screen and (min-width: 1200px) {
+    @media only screen and (min-width: 1100px) {
       @content;
     }
   }
   @if $breakpoint == mlg {
-    @media only screen and (min-width: 1400px) {
+    @media only screen and (min-width: 1450px) {
       @content;
     }
   }

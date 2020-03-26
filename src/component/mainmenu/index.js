@@ -1,6 +1,6 @@
 import React from "react";
 
-import me from "./me.png";
+// import me from "./me.png";
 import { NavLink } from "react-router-dom";
 import Nav from "../navbar";
 
@@ -11,19 +11,19 @@ class MainMenu extends React.Component {
         <div className="ogBackGround">
           <div className="background">
             <div className="container">
-              <div className="picture">
+              {/* <div className="picture">
                 <img className="picture" src={me} alt="pho" />
                 <p className="contact">Contact : omarsultani@msn.com</p>
-              </div>
+              </div> */}
               <div classname="text">
                 <div className="text">
                   <h2 className="name">Omar Sultani</h2>
                   <h3 className="job-title"> Front end developer</h3>
 
                   <p className="skills">
-                    Html, Css, Sass, JavaScript, React, React-Native,Dart,
-                    Flutter, Node js, Mongo db, Express, Firebase, Github, TDD ,
-                    Agile, npm, Adobe XD,
+                    Html, Css , Sass, JavaScript, React, React-Native,Dart,
+                    Flutter,Jest, Node js, Mongo db, Express, Firebase, Github,
+                    TDD , Agile, npm, Adobe XD,
                   </p>
                   <div className="btn-container" />
                 </div>
