@@ -102,7 +102,7 @@ class Experience extends React.Component {
                   <div className="txt">
                     <li>
                       Working at potential was enlightening because I was
-                      leaning from senior developers, we used React Js, Next Js
+                      learning from senior developers, we used React Js, Next Js
                       sass.
                     </li>
                     <li>

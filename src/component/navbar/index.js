@@ -84,7 +84,7 @@ class Nav extends React.Component {
           <a href="/contact" style={{ textDecoration: "none" }}>
             <div onClick={this.false} className="hamburger-menu">
               {" "}
-              Contact
+              About
             </div>
           </a>
         </div>
