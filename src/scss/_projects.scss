@@ -304,6 +304,7 @@
   justify-content: center;
   flex-direction: row;
   z-index: 100;
+
   @include responsive($breakpoint: "sm") {
     width: 80%;
   }
