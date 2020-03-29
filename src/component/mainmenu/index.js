@@ -42,7 +42,7 @@ class MainMenu extends React.Component {
                   <h4 className="menu-nav-contents"> Experience </h4>
                 </NavLink>
                 <NavLink to="/contact" style={{ textDecoration: "none" }}>
-                  <h4 className="menu-nav-contents"> Contact </h4>
+                  <h4 className="menu-nav-contents"> About </h4>
                 </NavLink>
               </div>
             </div>
