@@ -1,10 +1,6 @@
 // have a computer screen in the middle, and when you go over highlighted project squares around it then fill the computer screen in the middle
 import React from "react";
 
-// import medimeals from "./Screen Shot 2019-04-26 at 14.15.34.png";
-// import groove from "./groove.png";
-// import record from "./record.jpg";
-
 import energym from "./energym.png";
 import Nav from "../navbar";
 import ecotech from "./eco.png";
@@ -140,7 +136,7 @@ class Projects extends React.Component {
               <div className="laptop-shadow" />
             </div>
           </div>
-
+          {/* map functions must have key */}
           <div>
             {images
               .filter((selection, index) => {
