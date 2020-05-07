@@ -1,8 +1,8 @@
 @import "mixin";
 $ocean: #1fb58f;
-$sand: #eab125;
-$cocktail: #f24c4e;
-$palm: #1b7b34;
+$sand: #1fb58f;
+$cocktail: #1fb58f;
+$palm: #1fb58f;
 .contact-page {
   display: flex;
   flex-direction: column;
@@ -50,7 +50,7 @@ $palm: #1b7b34;
   padding: 25px 40px;
   margin: 15px 0px;
   text-align: center;
-  font-family: "mont";
+  font-weight: bold;
   z-index: 100;
   border: 1px solid black;
 
@@ -110,7 +110,7 @@ $palm: #1b7b34;
     display: flex;
     align-self: center;
     height: 206px;
-    border: 2px solid $sand;
+    border: 6px solid $sand;
     border-radius: 50%;
     margin-bottom: -40px;
     width: auto;

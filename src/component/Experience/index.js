@@ -13,7 +13,7 @@ const Experience = () => (
           <h1 className="experience-experience"> Experience</h1>
           <div>
             <div className="work-container">
-              <h3 className="work">Current studying</h3>
+              <h3 className="work">Currently studying</h3>
               <h5 className="company">
                 TDD, Redux, <i className="date">Present</i>
               </h5>

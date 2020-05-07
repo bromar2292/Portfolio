@@ -5,15 +5,6 @@
   --palm: #1b7b34;
 }
 
-@font-face {
-  font-family: 'mont';
-  src: local('mont'), ur('./font/Mont-Heavy.otf'), format('truetype');
-}
-
-@font-face {
-  font-family: 'mont-light';
-  src: local('mont-light'), ur('./font/Mont-Light.otf'), format('truetype');
-}
 
 body {
   margin: 0;
@@ -24,10 +15,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* background-color: var(--blue); */
-  font-family: "mont";
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace, 'mont', 'mont-light', ;
+    monospace;
 }

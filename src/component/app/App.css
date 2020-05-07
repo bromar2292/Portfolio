@@ -1,13 +1,17 @@
 /* .App {
   text-align: center;
 } */
+/* --ocean: #1fb58f;
+--sand: #eab125;
+--cocktail: #f24c4e; */
 
 :root {
   --ocean: #1fb58f;
-  --sand: #eab125;
-  --cocktail: #f24c4e;
-  --palm: #1b7b34;
+  --sand: #1fb58f;
+  --cocktail: #1fb58f;
+  --palm: #1fb58f;
 }
+
 /* --ocean: #1fb58f;
   ;
   --cocktail: #f24c4e;

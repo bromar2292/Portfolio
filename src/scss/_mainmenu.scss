@@ -18,7 +18,6 @@ $yellow: #eab126;
   }
 }
 .job-title {
-  color: var(--ocean);
   font-weight: 400;
   font-size: 20px;
   @include responsive($breakpoint: "md") {

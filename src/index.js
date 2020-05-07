@@ -4,8 +4,6 @@ import "./index.css";
 import App from "../src/component/app/App";
 import * as serviceWorker from "./serviceWorker";
 import "./scss/_.scss";
-import "./fonts/Mont-Heavy.otf";
-import "./fonts/Mont-Light.otf";
 
 import { BrowserRouter as Router } from "react-router-dom";
 

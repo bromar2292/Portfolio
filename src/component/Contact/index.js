@@ -13,9 +13,15 @@ const Contact = () => (
           <h1>About me</h1>
         </div>
         <p>
-          Hi my name is Omar Sultani and I love coding, teamwork for social good
-          and progressing my skills. My other passions are nutrition, exercise,
-          being a pro Dj and snowboarding.
+          After studying Nutrition, Exercise and Health, and working two years
+          in websites sales, I wanted a change in career. With my curiosity and
+          passion for tech, and my purpose of creating a positive impact on
+          people’s lives - I began to code. Soon after, I started a 16-week
+          intensive bootcamp, worked in the industry as a freelancer and for
+          startups. I’m now looking for a role where I can continue to work with
+          JavaScript and React/React-Native, as well as learn from other
+          developers and collaborate in a team. Currently, I am improving my
+          skillset, working through a TDD and Redux course.
         </p>
         <div className="links-container">
           <a
@@ -30,7 +36,7 @@ const Contact = () => (
             style={{ textDecoration: "none" }}
             className="contact-links"
           >
-            Linked in
+            LinkedIn
           </a>
           <a
             href="https://github.com/bromar2292?tab=repositories"

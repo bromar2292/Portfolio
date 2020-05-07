@@ -1,8 +1,8 @@
 :root {
   --ocean: #1fb58f;
-  --sand: #eab125;
-  --cocktail: #f24c4e;
-  --palm: #1b7b34;
+  --sand: #1fb58f;
+  --cocktail: #1fb58f;
+  --palm: #1fb58f;
 }
 
 .experience-experience {
@@ -99,7 +99,7 @@
     width: 100%;
   }
   @include responsive($breakpoint: "lg") {
-    margin-top: 550px;
+    margin-top: 450px;
     display: flex;
     height: 100vh;
     flex-direction: column;
