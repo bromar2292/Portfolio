@@ -10,7 +10,7 @@ import react from "./react.png";
 
 import columba from "./columba.png";
 import hr from "./hr.png";
-import eco from "./ecomune.png";
+import eco from "./ecommunity.png";
 
 class Projects extends React.Component {
   constructor(props) {
