@@ -11,7 +11,6 @@ $yellow: #eab126;
 .name {
   color: var(--sand);
   font-size: 36px;
-  font-family: "mont";
 
   @include responsive($breakpoint: "md") {
     font-size: 60px;
@@ -22,7 +21,7 @@ $yellow: #eab126;
   font-size: 20px;
   @include responsive($breakpoint: "md") {
     font-size: 30px;
-    font-family: "mont";
+
     margin-top: -25px;
   }
 }
@@ -74,7 +73,7 @@ $yellow: #eab126;
 .title {
   text-align: left;
   font-size: 60px;
-  font-family: "mont";
+
   @include responsive($breakpoint: "md") {
     font-size: 80px;
   }
@@ -82,7 +81,6 @@ $yellow: #eab126;
 }
 
 .skills {
-  font-family: "mont";
   font-size: 14px;
   @include responsive($breakpoint: "md") {
     font-size: 20px;
@@ -105,7 +103,7 @@ $yellow: #eab126;
   color: black;
   padding: 15px 20px;
   text-align: center;
-  font-family: "mont";
+
   border: 1px solid black;
 
   border-radius: 5px;

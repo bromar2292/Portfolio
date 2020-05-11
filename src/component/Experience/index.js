@@ -15,7 +15,7 @@ const Experience = () => (
             <div className="work-container">
               <h3 className="work">Currently studying</h3>
               <h5 className="company">
-                TDD, Redux, <i className="date">Present</i>
+                TDD, Redux, <b className="date">Present</b>
               </h5>
               <div className="txt">
                 <li className="txt">
@@ -28,7 +28,7 @@ const Experience = () => (
               <h3 className="work"> Web/Mobile Developer </h3>
               <h5 className="company">
                 {" "}
-                Energym <i className="date">Dec 2019 - March 2020</i>{" "}
+                Energym <b className="date">Dec 2019 - March 2020</b>{" "}
               </h5>
 
               <div className="txt">
@@ -59,7 +59,7 @@ const Experience = () => (
               <h3 className="work"> Freelance Developer </h3>
               <h5 className="company">
                 {" "}
-                Columba, <i className="date"> July 2019 - March 2020</i>{" "}
+                Columba, <b className="date"> July 2019 - March 2020</b>{" "}
               </h5>
 
               <div className="txt">
@@ -83,7 +83,7 @@ const Experience = () => (
               <h3 className="work"> Junior Developer</h3>
               <h5 className="company">
                 {" "}
-                Potential <i className="date">Oct 2019 - Dec 2019</i>
+                Potential <b className="date">Oct 2019 - Dec 2019</b>
               </h5>
 
               <div className="txt">
@@ -102,7 +102,7 @@ const Experience = () => (
               <h3 className="work"> Bootcamper </h3>
               <h5 className="company">
                 School of Code Bootcamp,{" "}
-                <i className="date">Feb 2019 - June 2019</i>
+                <b className="date">Feb 2019 - June 2019</b>
               </h5>
               <div className="txt">
                 <li className="txt">
@@ -132,7 +132,7 @@ const Experience = () => (
               <h3 className="work"> Online Expert </h3>
               <h5 className="company">
                 {" "}
-                Go daddy, <i className="date"> 2016 - 2018</i>
+                Go daddy, <b className="date"> 2016 - 2018</b>
               </h5>
 
               <div className="txt">
@@ -154,7 +154,7 @@ const Experience = () => (
             <div className="work-container">
               <h3 className="work">
                 Professional DJ and event runner,
-                <i className="date"> 2013 - Present</i>
+                <b className="date"> 2013 - Present</b>
               </h3>
 
               <div className="txt">
