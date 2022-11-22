@@ -9,7 +9,7 @@
     "react-animated-burgers": "^1.2.7",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.0",
-    "react-scripts": "^3.4.0",
+    "react-scripts": "^5.0.1",
     "sass": "^1.26.3",
     "styled-components": "^5.0.1"
   },
