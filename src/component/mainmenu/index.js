@@ -15,12 +15,12 @@ const MainMenu = () => (
           <div className="text">
             <div className="text">
               <h2 className="name">Omar Sultani</h2>
-              <h3 className="job-title"> Front end developer</h3>
+              <h3 className="job-title"> Flutter developer of 4+ years</h3>
 
               <p className="skills">
-                Html, Css , Sass, JavaScript, React, React-Native,Dart,
-                Flutter,Jest, Node js, Mongo db, Express, Firebase, Github, TDD
-                , Agile, npm, Adobe XD,
+                Flutter, Dart, JavaScript, React, React-Native, Html, Css , Sass, .Net
+                Jest, Node js, Mongo db, Express, Firebase, Azure, Back4App, Github, TDD
+                , Agile, Jira, npm, Adobe XD,
               </p>
               <div className="btn-container" />
             </div>
