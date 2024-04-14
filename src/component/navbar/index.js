@@ -2,7 +2,6 @@ import React from "react";
 
 import { NavLink } from "react-router-dom";
 import menu from "./hamburger.png";
-import { HamburgerSpin } from "react-animated-burgers";
 class Nav extends React.Component {
   constructor(props) {
     super(props);

@@ -13,15 +13,7 @@ const Contact = () => (
           <h1>About me</h1>
         </div>
         <p>
-          After studying Nutrition, Exercise and Health, and working two years
-          in websites sales, I wanted a change in career. With my curiosity and
-          passion for tech, and my purpose of creating a positive impact on
-          people’s lives - I began to code. Soon after, I started a 16-week
-          intensive bootcamp, worked in the industry as a freelancer and for
-          startups. I’m now looking for a role where I can continue to work with
-          JavaScript and React/React-Native, as well as learn from other
-          developers and collaborate in a team. Currently, I am improving my
-          skillset, working through a TDD and Redux course.
+          As a Flutter developer with 5  years of professional coding experience, I bring a deep curiosity and enthusiasm to every project. My journey is fueled by a relentless hunger for networking, embracing new challenges, and bringing a positive outlook and strong communication skills to any working environment. The dynamic world of tech, especially the fascinating realm of mobile, AI, health and blockchain, captivates me. I am committed to developing impactful technology, blending creativity and fun in my pursuit of continuous learning and innovation, Im looking for more flutter roles, but happy to learn, experiment with other mobile languages and anything blockchain.
         </p>
         <div className="links-container">
           <a

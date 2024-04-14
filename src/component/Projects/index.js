@@ -3,9 +3,9 @@ import React from "react";
 
 import energym from "./energym.png";
 import Nav from "../navbar";
-import ecotech from "./eco.png";
-import talent from "./talentgrid.png";
-
+import twyn from "./twyn.png";
+import ee from "./ee.png";
+import shift from "./shift.png"
 import react from "./react.png";
 
 import columba from "./columba.png";
@@ -45,24 +45,47 @@ class Projects extends React.Component {
   render() {
     const images = [
       {
-        label: "Columba Network",
-        src: columba,
-
+        label: "Twyn",
+        src: twyn,
         tech: react,
         demo: "https://columba.netlify.com",
         code: "",
         skills: [
-          "React Js",
+          "Flutter",
           "JavaScript",
-          "HTML",
-          "Sass",
-          "Firebase",
-
-          "Wordpress",
+          "C#",
+          ".net",
+          "Swift",
+          "Kotlin",
+          "Azure",
         ],
         description:
-          "For Columba, I first built their Wordpress Site. Then after completing that successfully. I began to build a full-stack membership site using React and firebase. Clients would be able to sign up, log in and have their dashboard in which to see their performance scores. Columba are able to change each clients scores from the firebase database. This project involved creating a custom pie chart as well as using Chart Js. I worked with the Ceo and a designer to bring this to life. Unfortunately, due to several factors, this project won't be getting finished.",
+          "For Twyn, I was heavily involved in all parts of the app. Twyn utilized AI speech recognition, video streaming and playback, video precaching, prompt engineering, and Flutter pages and widgets built dynamically from JSON using a content management system. It was truly a fun and innovative place to be.",
       },
+
+
+      {
+        label: "EE/BT",
+        src: ee,
+        tech: react,
+        demo: "",
+        code: "https://github.com/bromar2292/final-project-server-eco-warriors",
+        skills: ["Flutter", "Bloc", "Clean arcitecture", "Sql", "Unit Testing", "Acessibility"],
+        description:
+          "At EE, I was Collaborating as part of a large, diverse team, with developers all over the world working in an agile way, using stand-ups, retros and sprint planning to efficiently move the app from native to flutter, focusing on accessibilty and testing to make robust strong code, for an happ being used by millions.",
+      },
+
+      {
+        label: "Shift",
+        src: shift,
+        tech: hr,
+        demo: "",
+        code: "",
+        skills: ["FLutter", "Provider", "GetX", "Geo-location"],
+        description:
+          "At Shift, I worked fully remote as part of a team of 4, Provider for state management, then moved into GetX, while restructuring the app to to clean arcitecture methods. working hand in hand with designders to build beautiful UI ",
+      },
+
       {
         label: "energym",
         src: energym,
@@ -72,7 +95,6 @@ class Projects extends React.Component {
         skills: [
           "React JS",
           "JavaScript",
-
           "SASS",
           "Flutter",
           "Dart",
@@ -82,28 +104,6 @@ class Projects extends React.Component {
         ],
         description:
           "Energym was an enjoyable, rewarding and fast-paced environment. I would build react applications using react, examples being different leaderboards for competitions and energy savings calculators. Then  I would be designing, planning and building the mobile app. While coordinating with another developer, we created the mobile app using Flutter/dart while using firebase as the back-end. My experience at Energym has made me confident in communicating and planning development sprints as well as working in mobile development. ",
-      },
-
-      {
-        label: "Ecommunity",
-        src: eco,
-        tech: ecotech,
-        demo: "",
-        code: "https://github.com/bromar2292/final-project-server-eco-warriors",
-        skills: ["React-Native", "JavaScript", "HTML", "CSS", "Firebase"],
-        description:
-          "In the school of code, this was my final project. In the last 20 days as a team of 4, we built the Eccomunity app, with no experience with any of these technologies we built a working mobile app. This app guides you to eco-friendly businesses in your local area and gives you points for shopping at different locations, with live updates using a barcode system.",
-      },
-
-      {
-        label: "talent chart",
-        src: talent,
-        tech: hr,
-        demo: "",
-        code: "",
-        skills: ["React", "JavaScript", "html", "CSS", "Node Js", "Express"],
-        description:
-          "A huge problem in some big companies is managing talent, sometimes this is done on paper, so we created a grid system, which is password protected, that allows you to organise your employees talent, then save the grid to come back to at another time, we built this in react and used node js Mongo DB for the back end to store the information.",
       },
     ];
     return (
@@ -128,7 +128,7 @@ class Projects extends React.Component {
                     className="laptop"
                     src={selection.src}
                     alt={selection.label}
-                    // href={selection.href}
+                  // href={selection.href}
                   />
                 ))}
 

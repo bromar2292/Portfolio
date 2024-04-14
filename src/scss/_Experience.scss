@@ -11,6 +11,7 @@
   color: var(--ocean);
   font-size: 30px;
   margin: 0px 0px -10px 20px;
+
   @include responsive($breakpoint: "md") {
     text-decoration: underline;
 
@@ -18,6 +19,7 @@
     font-size: 40px;
     margin: 0px;
   }
+
   @include responsive($breakpoint: "lg") {
     text-decoration: underline;
 
@@ -26,6 +28,7 @@
     margin: 0px;
   }
 }
+
 .work-container {
   padding: 20px;
 
@@ -36,37 +39,49 @@
   color: black;
   font-size: 20px;
 }
+
 .work:hover {
   color: $ocean;
   font-size: 20px;
 }
+
 .company {
   // color: var(--cocktail);
   margin: -6px 0 15px 0;
   font-size: 15px;
+
   @include responsive($breakpoint: "md") {
     margin: -6px 0 15px 0;
     font-size: 16px;
   }
+
   @include responsive($breakpoint: "lg") {
     margin: -6px 0 15px 0;
     font-size: 18px;
   }
 }
+
 .txt {
   font-size: 12px;
   text-align: left;
   margin-left: 0px;
+
   @include responsive($breakpoint: "md") {
     font-size: 15px;
     text-align: left;
   }
+
   @include responsive($breakpoint: "lg") {
     font-size: 15px;
     text-align: left;
   }
 }
+
 .experience-container {
+  @media (min-width: 1400px) {
+    margin-top: 180px; // Adjust the value as needed
+  }
+
   display: flex;
   flex-direction: column;
 }
@@ -89,6 +104,7 @@
     align-items: center;
     width: 100%;
   }
+
   @include responsive($breakpoint: "md") {
     margin-top: 540px;
     display: flex;
@@ -98,6 +114,7 @@
     align-items: center;
     width: 100%;
   }
+
   @include responsive($breakpoint: "lg") {
     margin-top: 450px;
     display: flex;
@@ -107,6 +124,7 @@
     align-items: center;
     width: 80%;
   }
+
   @include responsive($breakpoint: "mlg") {
     margin-top: 10%;
     display: flex;
@@ -124,15 +142,18 @@
   // justify-content: center;
   text-align: left;
   list-style: none;
+
   @include responsive($breakpoint: "md") {
     list-style: circle;
     text-align: left;
     padding: 160px 0px 0px 100px;
   }
+
   @include responsive($breakpoint: "lg") {
     text-align: left;
     padding: 250px 0px 0px 100px;
   }
+
   // border: 1px solid #f4f5f7;
   // border-top: 20px solid #f4f5f7;
   // border-radius: 5px;
@@ -148,9 +169,11 @@
 
 .work-container:hover {
   color: $ocean;
+
   h3 {
     color: $ocean;
   }
+
   @include responsive($breakpoint: "lg") {
     text-align: left;
 
@@ -160,12 +183,15 @@
     border-radius: 5px;
     margin: 10px 0px;
     color: $ocean;
+
     h3 {
       color: $ocean;
     }
   }
+
   // background-color: $ocean;
 }
+
 .date {
   font-family: "mont-light";
   font-weight: 500;
